@@ -1,0 +1,1 @@
+function vehicleRequest(){const s=document.getElementById('segment').value;const v=document.getElementById('vehicle').value.trim();const r=document.getElementById('finderResult');r.textContent=v?`Anfrage vorbereitet: ${s} – ${v}. Bitte sende uns diese Angaben für die Prüfung der passenden Hersteller-Spezifikation.`:'Bitte Marke, Modell, Baujahr und Motor eingeben.';}
